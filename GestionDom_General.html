@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="C:\Users\anqu\Desktop\Trabajos de la uni\Practica_CDI\Escudo.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <title>General</title>
+</head>
+<style>
+/** custom styles */
+body  {
+    font-size: 14px;
+    line-height: 1.48;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+.userinfo-container 
+{
+    padding:15px;
+    width:auto;
+    display:inline-block;
+    background-color: #fbfcff;
+    border: 5px solid #3f51b5;
+    border-radius: 25px;
+    list-style: none; 
+}
+.container-header{
+  text-align: center;
+  font-size: 35px;
+  border-bottom: 2px solid blue;
+  margin-top:0;
+  margin-bottom: 10px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #d21f1f;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.flex-navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    margin-inline-end: 40px;
+}
+.menu-toggle-button {
+    padding: 12px 16px;
+    box-sizing: content-box;
+    border-radius: 25px;
+}
+
+.collapsible-menu {
+    position: absolute;
+    left: 0;
+    top: 74px;
+    background: #dddddded;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    min-width: 250px;
+    display: none;
+    border-bottom: 2px solid #d21f1ffc;
+    border-right:2px solid #d21f1ffc;
+}
+
+.collapsible-menu.active {
+    display: block;
+}
+
+.collapsible-menu li {}
+
+.collapsible-menu li a {
+    text-decoration: none;
+    display: block;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 4px;
+    padding-left: 52px;
+}
+
+.account-item a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 8px;
+    font-size: 18pt;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.fixed-bottom-bar {
+    position: fixed;
+    min-height: 30px;
+    background-color: #d21f1ffc;
+    bottom: 0;
+    width: 100%;
+    padding: 4px 15px;
+    box-sizing: border-box;
+}
+
+.fixed-bottom-bar ul {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+
+.fixed-bottom-bar ul li {
+    padding: 4px 15px;
+    color: #FFFFFF;
+    font-size: 12pt;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}</style>
+<body>
+				<nav class="navbar">
+				  <div class="container">
+					<ul class="flex-navbar">
+					  <li>
+						<button id="main-menu-button" class="menu-toggle-button ">
+						<i class="fas fa-align-justify"></i>        
+						</button>
+						<ul id="main-menu" class="collapsible-menu hidden">
+                <li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta4.html">General</a></li>
+						    <li><a style="color:black" href=file:///C:\Users\aquev\Desktop\Practica_CDI\Planta0.html>Planta 0</a></li>
+								<li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta1.html">Planta 1</a></li>
+								<li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta2.html">Planta 2</a></li>
+								<li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta3.html">Planta 3</a></li>
+                <li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta4.html">Planta 4</a></li>
+                <li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta4.html">Despacho 1</a></li>
+                <li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta4.html">Despacho 2</a></li>
+                <li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta4.html">Despacho 3</a></li>
+                <li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta4.html">Despacho 4</a></li>
+                <li><a style="color:black" href="file:///C:\Users\aquev\Desktop\Practica_CDI\Planta4.html">Sala Trabajo Comun</a></li>
+						</ul>
+					  </li>
+					  <li>General</i></li>
+					  <li class="account-item">
+						<a href="file:///C:\Users\aquev\Desktop\Practica_CDI\User_Info.html">
+						  <i class="fas fa-user-circle"></i>
+						</a>
+					  </li>      
+					</ul>
+				  </div>
+        </nav>
+        
+    <div style="padding-bottom: 55px;" class="container main">
+
+		  <div>
+        <ul class="userinfo-container">
+          <li>
+              <p class="container-header">Puertas</p>
+              <label><input type="checkbox" id="cbox1" value="p_entrada">Puerta de Entrada</label>
+          </li>
+          </li>
+       </ul>
+    </div>
+    <div>
+        <ul class="userinfo-container">
+            <li>
+                <p class="container-header">Ascensores</p>
+                <label style="display: inherit;padding-bottom: 10px;"><input type="checkbox" id="cbox2" value="asc_1">Ascensor 1</label>
+                <label style="display: inherit;"><input type="checkbox" id="cbox3" value="asc_2">Ascensor 2</label>
+            </li>
+            </li>
+        </ul>		
+    </div>
+    <div>
+        <ul class="userinfo-container">
+            <li>
+                <p class="container-header">Baños</p>
+                <p style="margin-top: 5px;margin-bottom: 5px;">Baño 1</p>
+                <label style="display: inherit;padding-bottom: 10px;"><input type="checkbox" id="cbox4" value="b_1">Luces</label>
+                <p style="margin-top: 5px;margin-bottom: 5px;">Baño 2</p>
+                <label style="display: inherit;padding-bottom: 10px;"><input type="checkbox" id="cbox5" value="b_2">Luces</label>
+                <p style="margin-top: 5px;margin-bottom: 5px;">Baño 1</p>
+                <label style="display: inherit;padding-bottom: 10px;"><input type="checkbox" id="cbox6" value="b_3">Luces</label>
+                <p style="margin-top: 5px;margin-bottom: 5px;">Baño 1</p>
+                <label style="display: inherit;padding-bottom: 10px;"><input type="checkbox" id="cbox7" value="b_4">Luces</label>
+            </li>
+            </li>
+        </ul>		
+    </div>
+    </div>
+				<div class="fixed-bottom-bar">
+				  <ul>
+					<li>
+						<a style="color:white"href="file:///C:\Users\aquev\Desktop\Practica_CDI\Seg_Dom_Index.html">
+							<i style="font-size: 35px" class="fas fa-home"></i>
+						</a>
+					</li>
+					<li>
+					  <a style="color:white"href="file:///C:\Users\aquev\Desktop\Practica_CDI\Salas_tcomun.html">
+						<i style="font-size: 35px" class="material-icons">screen_lock_portrait</i>
+					  </a>
+					</li>
+					<li>
+					  <a style="color:white"href="https://www.google.com/">
+					  <i style="font-size: 35px"class="fas fa-bell"></i>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+			  
+				<script type="application/javascript">/**JS para la apertura del menu desplegable*/
+				  let mainMenu = document.getElementById('main-menu'),
+					  menuButton = document.getElementById('main-menu-button');
+			  
+				  /**  poner/quitar clase active */
+				  menuButton.onclick = function () {
+					mainMenu.classList.toggle('active');
+				  };
+			  
+				</script>
+
+</body>
+
+</html>
